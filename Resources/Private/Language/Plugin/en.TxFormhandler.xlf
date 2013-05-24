@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-06-05T16:28:34Z" product-name="bootstrap_theme">
+		<header/>
+		<body>
+		
+		<!-- Formhandler Begin -->
+		
+		<trans-unit id="formhandler.firstname">
+				<source>Firstname:</source>
+				<target>Firstname:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.lastname">
+				<source>Lastname:</source>
+				<target>Lastname:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.street">
+				<source>Street/Nr.:</source>
+				<target>Street/Nr.:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.zip">
+				<source>ZIP-Code/City:</source>
+				<target>ZIP-Code/City:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.country">
+				<source>Country:</source>
+				<target>Country:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.email">
+				<source>E-Mail:</source>
+				<target>E-Mail:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.telephone">
+				<source>Telephone:</source>
+				<target>Telephone:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.fax">
+				<source>Fax:</source>
+				<target>Fax:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.message">
+				<source>Message:</source>
+				<target>Message:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.mobil">
+				<source>Mobil:</source>
+				<target>Mobil:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.url">
+				<source>URL:</source>
+				<target>URL:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.submit">
+				<source>Send</source>
+				<target>Send</target>
+		</trans-unit>
+		<trans-unit id="formhandler.salutation">
+				<source>Salutation:</source>
+				<target>Salutation:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.salutation_mr">
+				<source>Mr.</source>
+				<target>Mr.</target>
+		</trans-unit>
+		<trans-unit id="formhandler.salutation_mrs">
+				<source>Mrs.</source>
+				<target>Mrs.</target>
+		</trans-unit>
+		
+		<!-- Formhandler End -->
+		
+		<!-- Formhandler Error Messages -->
+		
+		<trans-unit id="error_firstname_required">
+				<source>The Firstname field is not filled out yet.</source>
+				<target>The Firstname field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_lastname_required">
+				<source>The Lastname field is not filled out yet.</source>
+				<target>The Lastname field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_street_required">
+				<source>The Street field is not filled out yet.</source>
+				<target>The Street field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_nr_required">
+				<source>The Nr. field is not filled out yet.</source>
+				<target>The Nr. field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_zip_required">
+				<source>The ZIP-Code field is not filled out yet.</source>
+				<target>The ZIP-Code field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_zip_integer">
+				<source>The ZIP-Code field is not filled out yet.</source>
+				<target>The ZIP-Code field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_town_required">
+				<source>The City field is not filled out yet.</source>
+				<target>The City field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_country_required">
+				<source>The country field is not filled out yet.</source>
+				<target>The country field is not filled out yet.</target>
+		</trans-unit>
+		<trans-unit id="error_email_required">
+				<source>Enter your e-mail address!</source>
+				<target>Enter your e-mail address!</target>
+		</trans-unit>
+		<trans-unit id="error_email_email">
+				<source>E-mail address is invalid!</source>
+				<target>E-mail address is invalid!</target>
+		</trans-unit>
+		<trans-unit id="error_telephone_required">
+				<source>Enter your Phone number!</source>
+				<target>Enter your Phone number!</target>
+		</trans-unit>
+		<trans-unit id="error_fax_required">
+				<source>Enter your Fax number!</source>
+				<target>Enter your Fax number!</target>
+		</trans-unit>
+		<trans-unit id="error_message_required">
+				<source>Tell us your message.</source>
+				<target>Tell us your message.</target>
+		</trans-unit>
+		<trans-unit id="error_url_maxLength">
+				<source>URL nor valid.</source>
+				<target>URL nor valid.</target>
+		</trans-unit>
+		<trans-unit id="error_header">
+				<source>You need to fill in the following fields!</source>
+				<target>You need to fill in the following fields!</target>
+		</trans-unit>
+		<trans-unit id="formhandler.required_fields">
+				<source>Fields marked with * are required!</source>
+				<target>Fields marked with * are required!</target>
+		</trans-unit>
+		
+	   <!-- Formhandler Error Messages -->
+	  
+	   <!-- Formhandler Mail Messages -->
+	   
+	    <trans-unit id="formhandler.anrede-email-user">
+				<source>Dear Mrs, Mr. Company</source>
+				<target>Dear Mrs, Mr. Company</target>
+		</trans-unit>
+		 <trans-unit id="formhandler.message-email-user">
+				<source>Thank you for your message. 
+We have received your request and will process your request as quickly as possible.
+   
+ Enclosed your transmitted data:
+</source>
+<target> Thank you for your message. 
+We have received your request and will process your request as quickly as possible.
+   
+ Enclosed your transmitted data:</target>
+	</trans-unit>
+			<trans-unit id="formhandler.footer-email-user"> 
+			<source>Thank you! 
+  Your Company - Team.
+
+  www.Company.com
+  This is an automatically generated e-mail, please do not reply.</source>
+		</source>
+		<target>Thank you! 
+  Your Company - Team.
+
+  www.Company.com
+  This is an automatically generated e-mail, please do not reply.</target>
+		</trans-unit>
+		
+		 <trans-unit id="formhandler.anrede_admin">
+				<source>Question by</source>
+				<target>Question by</target>
+		</trans-unit>
+	   <!-- Formhandler Mail Messages -->
+		</body>
+	</file>
+</xliff>
+
+
+
+
+
+
+

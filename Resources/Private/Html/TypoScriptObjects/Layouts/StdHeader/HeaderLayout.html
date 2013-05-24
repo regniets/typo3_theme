@@ -1,0 +1,9 @@
+<f:if condition="{0:headerLayout} == {0:100}">
+	<f:else>
+		<f:if condition="{subHeaderText}"><hgroup></f:if>
+			<f:render section="header" />
+			<f:if condition="{isHeaderDateSet}"><f:render section="headerDate" /></f:if>
+			<f:if condition="{subHeaderText}"><f:render section="subHeader" /></f:if>
+		<f:if condition="{subHeaderText}"></hgroup></f:if>
+	</f:else>
+</f:if>

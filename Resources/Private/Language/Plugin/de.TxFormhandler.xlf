@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2012-06-05T16:28:34Z" product-name="bootstrap_theme">
+		<header/>
+		<body>
+		
+		<!-- Formhandler Begin -->
+		
+		<trans-unit id="formhandler.firstname">
+				<source>Firstname:</source>
+				<target>Vorname:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.lastname">
+				<source>Lastname:</source>
+				<target>Nachname:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.street">
+				<source>Street/Nr.:</source>
+				<target>Straße/Nr.:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.zip">
+				<source>ZIP-Code/City:</source>
+				<target>PLZ/Ort:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.country">
+				<source>Country:</source>
+				<target>Land:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.email">
+				<source>E-Mail:</source>
+				<target>E-Mail:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.telephone">
+				<source>Telephone:</source>
+				<target>Telefon:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.fax">
+				<source>Fax:</source>
+				<target>Fax:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.message">
+				<source>Message:</source>
+				<target>Nachricht:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.mobil">
+				<source>Mobil:</source>
+				<target>Mobil:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.url">
+				<source>URL:</source>
+				<target>URL:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.submit">
+				<source>Send</source>
+				<target>Absenden</target>
+		</trans-unit>
+		<trans-unit id="formhandler.salutation">
+				<source>Salutation</source>
+				<target>Anrede:</target>
+		</trans-unit>
+		<trans-unit id="formhandler.salutation_mr">
+				<source>Mr.</source>
+				<target>Herr</target>
+		</trans-unit>
+		<trans-unit id="formhandler.salutation_mrs">
+				<source>Mrs.</source>
+				<target>Frau</target>
+		</trans-unit>
+		
+		<!-- Formhandler End -->
+		
+		<!-- Formhandler Error Messages -->
+		
+		<trans-unit id="error_firstname_required">
+				<source>The Firstname field is not filled out yet.</source>
+				<target>Das Feld Vorname ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_lastname_required">
+				<source>The Lastname field is not filled out yet.</source>
+				<target>Das Feld Nachname ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_street_required">
+				<source>The Street field is not filled out yet.</source>
+				<target>Das Feld Strasse ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_nr_required">
+				<source>The Nr. field is not filled out yet.</source>
+				<target>Das Feld Hausnummer ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_zip_required">
+				<source>The ZIP-Code field is not filled out yet.</source>
+				<target>Das Feld PLZ ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_zip_integer">
+				<source>The ZIP-Code field is not filled out yet.</source>
+				<target>Sie haben keine richtige PLZ eingegeben.</target>
+		</trans-unit>
+		<trans-unit id="error_town_required">
+				<source>The City field is not filled out yet.</source>
+				<target>Das Feld Ort ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_country_required">
+				<source>The country field is not filled out yet.</source>
+				<target>Das Feld Land ist noch nicht ausgefüllt.</target>
+		</trans-unit>
+		<trans-unit id="error_email_required">
+				<source>Enter your e-mail address!</source>
+				<target>Geben Sie Ihre E-Mailadresse ein!</target>
+		</trans-unit>
+		<trans-unit id="error_email_email">
+				<source>E-mail address is invalid!</source>
+				<target>E-Mailadresse ist ungültig!</target>
+		</trans-unit>
+		<trans-unit id="error_telephone_required">
+				<source>Enter your Phone number!</source>
+				<target>Geben Sie Ihre Telefonnummer ein!</target>
+		</trans-unit>
+		<trans-unit id="error_fax_required">
+				<source>Enter your Fax number!</source>
+				<target>Geben Sie Ihre Faxnummer ein!</target>
+		</trans-unit>
+		<trans-unit id="error_message_required">
+				<source>Tell us your message.</source>
+				<target>Teilen Sie uns Ihre Nachricht mit.</target>
+		</trans-unit>
+		<trans-unit id="error_url_maxLength">
+				<source>URL nor valid.</source>
+				<target>URL ungültig.</target>
+		</trans-unit>
+		<trans-unit id="error_header">
+				<source>You need to fill in the following fields!</source>
+				<target>Sie müssen noch folgende Felder Ausfüllen!</target>
+		</trans-unit>
+		<trans-unit id="formhandler.required_fields">
+				<source>Fields marked with * are required!</source>
+				<target>Felder mit * sind Pflichtfelder und müssen ausgefüllt werden!</target>
+		</trans-unit>
+		
+	   <!-- Formhandler Error Messages -->
+	  
+	   <!-- Formhandler Mail Messages -->
+	   
+	    <trans-unit id="formhandler.anrede-email-user">
+				<source>Dear Mrs, Mr. Company</source>
+				<target>Sehr geehrte(r) Herr, Frau, Firma</target>
+		</trans-unit>
+		 <trans-unit id="formhandler.message-email-user">
+				<source>Thank you for your message. 
+We have received your request and will process your request as quickly as possible.
+   
+ Enclosed your transmitted data:
+</source>
+<target> Vielen Dank für Ihre Nachricht.
+  Wir haben Ihre Anfrage erhalten und werden Ihre Anfrage so schnell wie möglich bearbeiten.
+  
+  Anbei Ihre übermittelten Angaben:</target>
+	</trans-unit>
+			<trans-unit id="formhandler.footer-email-user"> 
+			<source>Thank you! 
+  Your Company - Team.
+
+  www.Company.com
+  This is an automatically generated e-mail, please do not reply.</source>
+		</source>
+		<target>Vielen Dank! 
+  Ihr Company - Team.
+
+  www.Company.com
+ 
+  Dies ist ein automatisch generiertes E-Mail, bitte nicht antworten.</target>
+		</trans-unit>
+		
+		 <trans-unit id="formhandler.anrede_admin">
+				<source>Question by</source>
+				<target>Anfrage von</target>
+		</trans-unit>
+	   
+	   <!-- Formhandler Mail Messages -->
+		</body>
+	</file>
+</xliff>
+
+
+
+
+
+
+

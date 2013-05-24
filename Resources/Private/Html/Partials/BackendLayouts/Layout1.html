@@ -1,0 +1,21 @@
+{namespace theme=Tx_Typo3Theme_ViewHelpers}
+<div class="row">
+	<aside class="span3">
+		<nav>
+			<f:cObject typoscriptObjectPath="lib.navigation.general" data="1" />
+		</nav>
+		<!-- TYPO3SEARCH_begin -->
+		<f:cObject typoscriptObjectPath="lib.content" data="1" />
+		<!-- TYPO3SEARCH_end-->
+	</aside>
+	<section class="span6">
+		<!--TYPO3SEARCH_begin-->
+		<f:cObject typoscriptObjectPath="lib.content" data="0" />
+		<!--TYPO3SEARCH_end-->
+	</section>
+	<aside class="span3">
+		<!--TYPO3SEARCH_begin-->
+		<f:cObject typoscriptObjectPath="lib.content" data="2" />
+		<!--TYPO3SEARCH_end-->
+	</aside>
+</div>

@@ -1,0 +1,32 @@
+{namespace theme=Tx_Typo3Theme_ViewHelpers}
+<div class="container">
+	<header id="header">
+		<div class="headerTop clearfix">
+			<div class="logo">
+
+			</div>
+		</div>
+	</header>
+	<nav class="nav clearfix">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<f:cObject typoscriptObjectPath="lib.navigation.general" data="0" />
+			</div>
+		</div>
+	</nav>
+	<div class="content clearfix">
+		<div class="breadcrumb">
+			<f:cObject typoscriptObjectPath="lib.navigation.breadcrumb" />
+		</div>
+
+		<f:render section="content" />
+	</div>
+	<footer id="footer">
+		<div class="copyright">
+			<f:cObject typoscriptObjectPath="lib.copyright" />
+		</div>
+		<div class="footerMenue">
+			<f:cObject typoscriptObjectPath="lib.navigation.general" data="1" />
+		</div>
+	</footer>
+</div>

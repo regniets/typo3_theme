@@ -1,0 +1,12 @@
+# cat=basic//50; type=boolean; label= Enable imagewidth-selector instead of box
+imagewidthSelector = 1
+
+# cat=basic//60; type=string; label= Imagewidth-values, comma-separated
+imagewidthValues = 100,200,300,400,600
+
+# cat=basic//70; type=boolean; label= Enable imageheight-selector instead of box
+imageheightSelector = 1
+
+# cat=basic//80; type=string; label= Imageheight-values, comma-separated
+imageheightValues = 100,200,300,400,600
+

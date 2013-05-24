@@ -1,0 +1,17 @@
+<f:layout name="StdHeader/HeaderLayout" />
+
+<f:section name="header">
+<h{f:if(condition:'{headerLayout}', then:'{headerLayout}', else:'1')} class="csc-header csc-header-n{parentRecordNumber}{f:if(condition:'{headerPosition}', then:' csc-header-alignment-{headerPosition}')}{f:if(condition:'{0:parentRecordNumber} == {0:1}', then:' csc-firstHeader')}">
+	<f:render partial="StdHeader/HeaderText" arguments="{headerText:headerText, headerLink:headerLink, headerLinkUrl:headerLinkUrl, headerLinkTarget:headerLinkTarget}" />
+</h{f:if(condition:'{headerLayout}', then:'{headerLayout}', else:'1')}>
+</f:section>
+
+<f:section name="headerDate">
+<time datetime="{headerHtml5DatetimeFormat}">{headerDate}</time>
+</f:section>
+
+<f:section name="subHeader">
+<h{f:if(condition:'{headerLayout}', then:'{headerLayout}', else:'2')}>
+	<f:render partial="StdHeader/HeaderText" arguments="{headerText:subHeaderText, headerLink:headerLink, headerLinkUrl:headerLinkUrl, headerLinkTarget:headerLinkTarget}" />
+</h{f:if(condition:'{headerLayout}', then:'{headerLayout}', else:'2')}>
+</f:section>
