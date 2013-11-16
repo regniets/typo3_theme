@@ -18,6 +18,12 @@ page {
 		minifyCSS = {$td.config.headerData.minifyJsAndCss}
 	}
 
+    headTag (
+        <head>
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--[if lte IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"" type="text/javascript"></script><![endif]-->
+    )
+
 	headerData {
 		//Title Tag function
 		5 = COA
@@ -78,12 +84,12 @@ page {
 	}
 	meta {
   		description {
-			data = pages:description
+			data = page:description
 			ifEmpty.data = levelfield :-1, description, slide
 			crop = 200|
   		}
   		keywords {
-			data = pages:keywords
+			data = page:keywords
 			ifEmpty.data = levelfield :-1, keywords, slide
 			crop = 1000|
 		}
@@ -92,11 +98,25 @@ page {
 }
 
 [globalVar = LIT:1 = {$td.config.headerData.includeJqueryFromGoogle}]
-page.includeJS {
+    page.includeJS {
 		jQuery = http://ajax.googleapis.com/ajax/libs/jquery/{$td.config.headerData.includeJqueryVersion}/jquery.min.js
 		jQuery.external = 1
-}
+    }
 [global]
+
+
+page.includeJS {
+    file1 = {$td.config.resourcesPath}/Public/Javascript/jquery.colorbox-min.js
+}
+
+// activate lightbox
+page.jsFooterInline{
+    10 = COA
+    10.wrap = jQuery(document).ready(function(){|});
+    10.10 = TEXT
+    10.10.value = jQuery(".rzcolorbox").colorbox();
+}
+
 
 [globalVar = LIT:1 = {$td.config.twitterBootstrap.includeJavascripts.affix}]
 page.includeJS.affix = {$td.config.resourcesPath}/Public/Javascript/TwitterBootstrap/{$td.config.twitterBootstrap.version}/bootstrap-affix.js

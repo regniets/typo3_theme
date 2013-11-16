@@ -35,42 +35,17 @@
 
 class ext_update  {
 
-    /**
-     * Extension key should come from scheduler task
-     * Update Script is being inserted manually or in the build process.
-     * @var string
-     */
-    private $extKey = 'typo3_theme';
-
-    /**
-     * Base Path for Installer Folder
-     *
-     * @var string
-     */
-    private $basePath;
-
-    /**
-     * Theme Installer
-     *
-     * @var ThemeInstallerService
-     */
-    private $themeInstaller;
-
-    /**
-     * Execute Method for installing themes
-     *
-     * @return void
-     */
-    public function main() {
-        $themeInstaller = new ThemeInstallerService();
-        $themeInstaller->setExtKey($this->extKey);
-        $themeInstaller->setBasePath('typo3conf/ext/' . $this->extKey . '/Configuration/TypoScriptInstaller/');
-        $returnError = $themeInstaller->installTheme();
-        if($returnError)
-            return 'Error Installing';
-        else
-            return 'Installed successfully';
-    }
+	/**
+	 * Execute Method for installing themes
+	 *
+	 * @return void
+	 */
+	public function main() {
+		$objectManager = new \TYPO3\CMS\Extbase\Object\ObjectManager();
+		$commandController = $objectManager->create('TechDivision\Typo3Theme\Command\InstallTypoScriptCommandController');
+		$commandController->installAllTypoScriptCommand();
+		return 'Installed successfully, for details consult the system log';
+	}
 
     /**
      * access is always allowed
@@ -82,11 +57,6 @@ class ext_update  {
     }
 
 
-}
-
-// Include extension?
-if (defined('TYPO3_MODE') && $GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/static_info_tables/class.ext_update.php'])    {
-    include_once($GLOBALS['TYPO3_CONF_VARS'][TYPO3_MODE]['XCLASS']['ext/static_info_tables/class.ext_update.php']);
 }
 
 

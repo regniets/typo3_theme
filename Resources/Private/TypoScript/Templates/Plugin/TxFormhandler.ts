@@ -38,9 +38,10 @@ plugin.Tx_Formhandler.settings.predef.default {
 			limitMailsToUser = 5
 			admin {
 				to_email = 
-				to_name = 
-				subject = 
-				sender_email = email
+				to_name =
+                subject = TEXT
+                subject.data = LLL:EXT:juwelier_cwm_theme/Resources/Private/Language/Plugin/TxFormhandler.xml:ContactForm.EmailAdminSubject
+                sender_email = email
 				sender_name = lastname
 				replyto_email = email
 				#cc_email = A CC email will be sent to this address
@@ -51,7 +52,8 @@ plugin.Tx_Formhandler.settings.predef.default {
 			user {
 				to_email = email
 				to_name = lastname
-				subject = Ihre Kontaktanfrage
+                subject = TEXT
+                subject.data = LLL:EXT:juwelier_cwm_theme/Resources/Private/Language/Plugin/TxFormhandler.xml:ContactForm.EmailUserSubject
 				sender_email = 
 				sender_name = 
 				replyto_email =

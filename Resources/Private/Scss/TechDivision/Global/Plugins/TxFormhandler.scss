@@ -1,0 +1,66 @@
+#formhandler_contact_form {
+}
+.csc-mailform-field {
+	width:100%;
+	padding-bottom:10px;	
+	display:block;
+}
+.csc-mailform-field input, .csc-mailform-field label {
+	width:250px;
+	float:left;
+}
+.csc-mailform-field input {
+	padding:2px;
+}
+.csc-mailform-field textarea {
+	display:inline;
+	width:255px;
+	height:80px;
+	float:left;
+	border:1px solid #d8d8d8;
+}
+.csc-mailform-field span {
+	float:left;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:16px;
+}
+.csc-mailform-field input#firstname, .csc-mailform-field input#lastname, .csc-mailform-field input#street, .csc-mailform-field input#nr, .csc-mailform-field input#zip, .csc-mailform-field input#town, .csc-mailform-field input#country, .csc-mailform-field input#email, .csc-mailform-field input#telephone, .csc-mailform-field input#fax, .csc-mailform-field input#freecapfield {
+	border:1px solid #d8d8d8;
+}
+.csc-mailform-field input#street {
+	width:200px;
+}
+.csc-mailform-field input#nr {
+	width:30px;
+}
+.csc-mailform-field input#zip {
+	width:45px;
+}
+.csc-mailform-field input#town {
+	width:185px;
+}
+.csc-mailform-field label {
+	width:110px;
+	vertical-align:top;
+	display:block;
+	border:none;
+	font-size:100%;
+}
+.dontEnter {
+	display:none;
+}
+.submitSpace {
+	margin:0 0 10px 110px;
+}
+.submitSpace INPUT {
+	float:none;
+	width:257px;
+	height:20px;
+	padding-top:0;
+	color:#fff;
+	font-size:11px;
+	font-weight:normal;
+	background:#314191;
+	border:0px solid #fff;	
+}

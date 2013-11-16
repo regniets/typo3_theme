@@ -1,0 +1,59 @@
+
+html {
+	color: $textColor;
+	font-size: $baseFontSize;
+	font-family: $sansFontFamily;
+	height: 101%;
+	line-height: 1;
+	margin-bottom: 1px;
+	position:relative;
+}
+
+body {
+	display:block;
+	margin:auto; /*center for FF */
+	min-height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.container,
+.container-fluid {
+	margin: auto;
+	padding: 0;
+	text-align: left;
+}
+
+.header {
+}
+
+.logo,
+.serviceMenue,
+.footerMenue,
+.copyright {
+
+}
+
+.breadcrumb {
+	max-width: 912px;
+	margin-bottom: 15px;
+}
+
+.content {
+	padding-bottom: 60px;
+	border:solid red 1px;
+}
+
+.footer {    
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	background: #ff0000;
+	color: #fff;
+	@border-radius(10px);
+}
+
+.navbar {
+	border: solid green 3px;
+}

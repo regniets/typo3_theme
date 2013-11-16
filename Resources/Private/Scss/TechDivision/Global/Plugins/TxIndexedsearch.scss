@@ -1,0 +1,85 @@
+ 
+/****************************/
+/* Suche indexed_search     */
+/****************************/
+.tx-indexedsearch .searchbox-tmpl-css {
+	margin: 10px 0;
+}
+.tx-indexedsearch FIELDSET LEGEND {
+	display:none;
+}
+.tx-indexedsearch .searchbox-tmpl-css .tx-indexedsearch-form,
+.tx-indexedsearch .searchbox-tmpl-css .tx-indexedsearch-search-submit {
+	display:inline;
+}
+.tx-indexedsearch .searchbox-tmpl-css LABEL {
+	padding:4px 0;
+	margin-right:10px;
+}
+.tx-indexedsearch .searchbox-tmpl-css INPUT.tx-indexedsearch-searchbox-sword {
+	border:solid 1px #000000;
+	padding:3px;
+}
+.tx-indexedsearch .searchbox-tmpl-css INPUT.tx-indexedsearch-searchbox-button {
+	border-width:2px;
+	padding:2px;
+}
+.tx-indexedsearch .tx-indexedsearch-whatis {
+	margin:20px 0;
+}
+.tx-indexedsearch .tx-indexedsearch-whatis .tx-indexedsearch-sw {
+	font-style:italic;
+	font-weight:bold;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox {
+	background:url("../img/grey.gif") repeat-x scroll 0 10px transparent;
+	margin-bottom:10px;
+	padding:20px 0 0;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox P {
+	margin:0 0 10px 0;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox P STRONG {
+	font-weight:normal;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox UL {
+	margin:0;
+	list-style-type:none;
+}
+.tx-indexedsearch .tx-indexedsearch-browsebox UL LI {
+	list-style-type:none;
+	display:inline;
+	padding:0 3px;
+	margin-right:6px;
+}
+.tx-indexedsearch .tx-indexedsearch-browselist-currentPage A {
+	color:#000000;
+	text-decoration:none;
+}
+.tx-indexedsearch .res-tmpl-css {
+	background:url("../img/grey.gif") repeat-x scroll 0 0 transparent;
+	margin-bottom:20px;
+	padding:32px 0 0;
+	clear:both;
+}
+.tx-indexedsearch .tx-indexedsearch-header {
+	margin-bottom:12px;
+}
+.tx-indexedsearch .tx-indexedsearch-header .result-number {
+	display:block;
+	float:left;
+	font-weight:bold;
+}
+.tx-indexedsearch .tx-indexedsearch-header .percent {
+	display:block;
+	float:right;
+	font-weight:bold;
+}
+.tx-indexedsearch .tx-indexedsearch-header .title {
+	margin-left:5px;
+	margin-right:10px;
+}
+.tx-indexedsearch .tx-indexedsearch-redMarkup {
+	color:#ff0000;
+	font-weight:normal;
+}

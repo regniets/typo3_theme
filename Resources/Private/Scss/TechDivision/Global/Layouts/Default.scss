@@ -1,0 +1,47 @@
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+body {
+	color: $textColor;
+	font-size: $baseFontSize;
+	font-family: $sansFontFamily;
+	text-align: center;
+}
+.container,
+.container-fluid {
+	display: block;
+	margin:auto; /*center for FF */
+	padding: 0;
+	text-align:left;
+}
+
+.logo,
+.serviceMenue,
+.footerMenue,
+.copyright {
+	display: block;
+	float: left;
+	width: 49.9%;
+}
+
+.header {
+	margin: 10px 0;
+}
+
+.breadcrumb {
+}
+
+.content {
+	padding: 0 0 40px 0;
+}
+
+.footer {
+	display: block;
+	height: 30px;
+	width: 100%;
+}
+
+.navi {
+	padding:0;
+}

@@ -40,7 +40,7 @@ config {
 	sendCacheHeaders = 1
 	
 	headerComment = Konzept, Design und technische Umsetzung - TechDivision GmbH - www.techdivision.com
-	baseURL = http://{$td.config.domains.live}/
+	//baseURL = http://{$td.config.domains.live}/
 
 	sys_language_uid = {$td.config.language.sys_language_uid}
 	htmlTag_setParams = {$td.config.language.htmlTag_setParams}
@@ -72,3 +72,7 @@ config.baseURL = http://{$td.config.domains.local}/
 [globalString = IENV:TYPO3_SITE_URL=https://{$td.config.domains.local}/]
 config.baseURL = https://{$td.config.domains.local}/
 [global]
+
+
+// eleminate p class="bodytext"
+lib.parseFunc_RTE.nonTypoTagStdWrap.encapsLines.addAttributes.P.class >

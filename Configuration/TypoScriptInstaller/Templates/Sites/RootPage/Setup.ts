@@ -11,7 +11,6 @@
 
 //PAGE:
 <INCLUDE_TYPOSCRIPT: source="FILE:typo3conf/ext/typo3_theme/Resources/Private/TypoScript/Templates/Config/GlobalConfig.ts">
-<INCLUDE_TYPOSCRIPT: source="FILE:typo3conf/ext/typo3_theme/Resources/Private/TypoScript/Templates/Config/DynamicBaseUrl.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:typo3conf/ext/typo3_theme/Resources/Private/TypoScript/Templates/Page/Body.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:typo3conf/ext/typo3_theme/Resources/Private/TypoScript/Templates/Page/Head.ts">
 <INCLUDE_TYPOSCRIPT: source="FILE:typo3conf/ext/typo3_theme/Resources/Private/TypoScript/Templates/Plugin/TxRealurl.ts">

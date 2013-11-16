@@ -1,0 +1,231 @@
+.news .hidden {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+	overflow: hidden;
+}
+.news .article:last-child {
+	padding-bottom: 10px;
+	margin-bottom: 0;
+}
+.news .article:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.news article .news-img-wrap {
+	float: left;
+	width: 128px;
+	margin: 3px 12px 5px 0;
+	background: #fff;
+	border:solid orange 1px;
+}
+.news article .news-img-wrap img {
+	float:left;
+	width: 100% !important;
+	height: auto;
+}
+.news article .teaser-text {
+	margin: 0 0 10px 0;
+}
+.newsHeader {
+	font-family: 'PolyRegular', sans-serif;
+}
+.newsHeader SPAN.news-list-date {
+	color:#666;
+	width:auto;
+	display:block;
+	font-size:11px;
+	margin-bottom:3px;
+}
+.article SPAN.news-list-date SPAN.sponsoredPost {
+	display:none;
+}
+.topnews SPAN.news-list-date SPAN.sponsoredPost {
+	display:inline;
+	float:right;
+}
+.newsHeader H3 {
+	margin-bottom:15px;	
+}
+.article SPAN.readMore {
+	width:auto;
+	float:left;
+}
+.article SPAN.readMore A, .news-backlink-wrap A{
+	font-family: 'PolyRegular', sans-serif;
+	color:#fff;
+	border-bottom:1px solid #dad;
+	background:url(../../Images/arrowWhiteBig.png) no-repeat 13px 11px #006bdf;
+	padding:8px 7px 7px 28px;
+	display:block;
+	width:85px;
+}
+.news-backlink-wrap A {
+	float:none;
+	width:60px;
+}
+.article SPAN.readMore A:hover {
+	text-decoration:none;
+}
+.article .newsHeader H3 A, .article .newsHeader H3{
+	color: #ff9420;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:normal;
+	border:0;
+	background:none;
+	padding:0;
+	width:auto;
+}
+.topnews {
+	background:#ff9420;
+	display:block;
+}
+.topnews .newsHeader H3 A{
+	color: #fff;
+}
+.news {
+	font-size: 12px;
+	font-family: Arial, sans-serif;
+}
+.news .hidden {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+	overflow: hidden;
+}
+.news .clear { 
+		clear: both; 
+		}
+.news .nav ul {
+    float: left;
+    display: inline;
+	margin: 0;
+}
+.news P {
+	margin-bottom:15px;
+}
+.news .article {
+	border:2px solid #eee;
+	padding:10px;
+	display:block;
+	margin-bottom:15px;
+}
+.news .article .news-img-wrap {
+	float: left;
+	width: auto;
+	margin: 3px 12px 10px 0;
+	display:block;
+}
+.news .article .news-img-wrap a {
+	display: block;
+	float: left;
+	border: 2px solid #ff9420;
+	margin-top:0px;
+	padding:0;
+	background:0;
+}
+.news .topnews .news-img-wrap a {
+	border: 2px solid #666;
+	display:block;
+}
+.news .article .news-img-wrap img {
+	float:left;
+	height:auto;
+}
+.news-single .article {
+	border:0;
+}
+.news-single .footer {
+	margin-bottom: 20px;
+	margin-top: 5px;
+	padding: 10px 0 0 0;
+	border-bottom: 0;
+}
+.news-single .article .news-img-wrap {
+	float: left;
+	margin: 0 15px 0 0;
+	width:auto;
+}
+.news-text-wrap {
+	margin-bottom: 10px;
+}
+.news-single .article .news-img-wrap A img { 
+	float: none; 
+	margin-bottom:10px;
+	border:0;
+	}
+.news-single .article .news-img-wrap A {
+	border:0;
+}
+A SPAN.news-img-caption { 
+	color:#666;
+	padding-top:5px;
+	font-size:11px;
+	font-style:italic;
+	width:300px;
+	}
+.news .page-navigation p {
+	float:left;
+}
+.page-navigation p {
+	display:none;
+}
+.news .page-navigation {
+	margin:30px 0;
+	display:block;
+}
+.news .page-navigation ul{
+	float:right;
+}
+.news .page-navigation ul li{
+	float:left;
+	display:block;
+	background: none;
+	border:solid 1px #ff9420;
+	margin-right:10px;
+	font-weight:bold;
+	padding:0;
+}
+.news .page-navigation ul li a{
+	display:block;
+	padding:2px 5px;
+	color:#ff9420;
+}
+.news .page-navigation ul li.current A {
+	background:#ff9420;
+	color:#fff;
+}
+.news .page-navigation ul li.next, .news .page-navigation ul li.previous{
+	border:0;
+	margin:0;
+	font-weight:normal;
+}
+.news-clear {
+	clear:both;
+}
+.article .socialFrame SPAN {
+}
+.article .socialFrame SPAN.share {
+	width:70px;
+	float:right;
+}
+.article .socialFrame SPAN.share A  {
+	width:70px;
+	display:block;
+	margin:0;
+	padding:0;
+}
+.article .socialFrame SPAN.share, .article .socialFrame SPAN.twitter {
+	float:right;
+	margin:0 0 0 5px;
+}

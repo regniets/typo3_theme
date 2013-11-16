@@ -209,5 +209,47 @@ if($confArr['imagewidthSelector']){
 }
 
 
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addTypoScriptSetup('
+config.tx_extbase.persistence.classes {
+
+    TechDivision\Typo3Theme\Domain\Model\BackendUser {
+        mapping {
+            tableName = be_users
+            columns.typoscript_mapping.mapOnProperty = typoScriptMapping
+            columns.TSConfig.mapOnProperty = setupCode
+        }
+    }
+
+    TechDivision\Typo3Theme\Domain\Model\BackendGroup {
+        mapping {
+            tableName = be_groups
+            columns.typoscript_mapping.mapOnProperty = typoScriptMapping
+            columns.TSConfig.mapOnProperty = setupCode
+        }
+    }
+
+    TechDivision\Typo3Theme\Domain\Model\Page {
+        mapping {
+            tableName = pages
+            columns.TSConfig.mapOnProperty = setupCode
+        }
+    }
+
+    TechDivision\Typo3Theme\Domain\Model\TypoScriptTemplate {
+        mapping {
+            tableName = sys_template
+            columns.config.mapOnProperty = setupCode
+        }
+    }
+
+    TechDivision\Typo3Theme\Domain\Model\TypoScriptMapping {
+        mapping {
+            tableName = typoscript_mapping
+        }
+    }
+
+}
+');
+
 
 ?>

@@ -1,0 +1,45 @@
+/*@CHARSET "ISO-8859-1";*/
+
+#service-links-actions-menu {
+	width: 66px;
+}
+#service-links-actions-menu .toolbar-item-active {
+	background-image: url(../img/toolbar_item_active_bg.png);
+}
+
+#service-links-actions-menu ul {
+	position: absolute;
+	list-style: none;
+	padding: 2px 0px 0px;
+	margin: 0px;
+	background-color: #f9f9f9;
+	border: 1px solid #abb2bc;
+	border-top: none;
+	width: 200px;
+}
+
+#service-links-actions-menu li {
+	padding-top: 2px;
+	padding-left: 3px;
+	text-align: left;
+	float: none;
+	vertical-align: middle;
+	height: 19px;
+	line-height: 12px;
+	font-size: 11px;
+}
+
+#service-links-actions-menu li img {
+	float: left;
+	padding-right: 3px;
+}
+
+#service-links-actions-menu li a {
+	text-decoration: none;
+	line-height: 12px;
+	vertical-align: middle;
+	display: block;
+	padding-bottom: 2px;
+/*	padding-left: 3px; */
+	font-size: 11px;
+}

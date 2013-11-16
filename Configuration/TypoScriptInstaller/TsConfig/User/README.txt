@@ -1,0 +1,1 @@
+Put User TSConfig in here and map them accordingly with typoscript_mapping records

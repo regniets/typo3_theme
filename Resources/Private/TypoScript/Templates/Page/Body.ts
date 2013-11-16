@@ -29,7 +29,6 @@ page {
 			backendLayout {
 				field = backend_layout
 				ifEmpty.data = levelfield:-2, backend_layout_next_level, slide
-				override.ifEmpty.value = 1
 			}
 		}
 	}

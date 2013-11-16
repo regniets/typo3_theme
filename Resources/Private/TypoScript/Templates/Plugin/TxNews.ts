@@ -41,6 +41,7 @@ plugin.tx_news {
 		templateRootPath = {$td.config.resourcesPath}/Private/Html/Plugin/TxNews/Templates/
 		partialRootPath = {$td.config.resourcesPath}/Private/Html/Plugin/TxNews/Partials/
 		layoutRootPath = {$td.config.resourcesPath}/Private/Html/Plugin/TxNews/Layouts/
+		widget.Tx_News_ViewHelpers_Widget_PaginateViewHelper.templateRootPath = {$td.config.resourcesPath}/Private/Html/Plugin/TxNews/Templates/
 	}
 	# Modify the translation
 	_LOCAL_LANG {

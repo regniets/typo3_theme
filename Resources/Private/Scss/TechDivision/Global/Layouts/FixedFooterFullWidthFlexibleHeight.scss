@@ -1,0 +1,64 @@
+html {
+	border:solid blue 5px;
+	margin-bottom:1px;
+	min-height: 100%;
+	position: relative;
+}
+	
+body {
+	border:solid red 5px;
+	color: $textColor;
+	font-size: $baseFontSize;
+	font-family: $sansFontFamily;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.wrapper {
+	display: block;
+	border:solid red 1px;
+	margin:auto; /*center for FF */
+	min-height: 100%;
+	text-align:center;
+}
+
+.container,
+.container-fluid {
+	margin:auto;
+	padding:0;
+	text-align:left;
+}
+
+.logo,
+.serviceMenue,
+.footerMenue,
+.copyright {
+
+}
+
+.header {
+}
+
+.breadcrumb {
+	margin-bottom: 15px;
+	max-width: 912px;
+}
+
+.content {
+	padding-bottom: 250px;
+}
+
+.footer {
+	background: #ff0000;
+	border-radius: 2px;
+	bottom: 0;
+	color: #fff;
+	display: block;
+	position: absolute;
+	width: 100%;
+}
+
+.navbar {
+	border: solid green 3px;
+}

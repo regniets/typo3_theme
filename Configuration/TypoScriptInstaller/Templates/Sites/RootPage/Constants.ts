@@ -22,8 +22,9 @@ styles.content {
 
 		linkWrap {
 			lightboxEnabled = 1
-			lightboxRelAttribute = lightbox{field:uid}
-			lightboxCssClass = lightbox
+            lightboxRelAttribute = colorbox{field:uid}
+            lightboxCssClass = rzcolorbox
+            width = 800
 		}
 	}
 	links.extTarget = _blank
@@ -61,7 +62,7 @@ td.config {
 	domains {
 		live =
 		testing =
-		local = http://dev.local/typo3/6.1/typo3_theme/
+		local = ${domain}
 	}
 
 	//Language Settings

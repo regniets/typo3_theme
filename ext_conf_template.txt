@@ -10,3 +10,9 @@ imageheightSelector = 1
 # cat=basic//80; type=string; label= Imageheight-values, comma-separated
 imageheightValues = 100,200,300,400,600
 
+# cat=basic//90; type=boolean; label= Enable Backend-Compression (add entries in htaccess first, otherwise Backend will break)
+backendCompression = 0
+
+# cat=basic//100; type=boolean; label= Turn on TechDivision Support Toolbar
+showServicelinks = 1
+

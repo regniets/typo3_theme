@@ -1,0 +1,87 @@
+.tx-felogin-pi1 {
+	height:105px;
+	padding:5px 10px 5px 15px;
+	z-index:2000;
+	top:0;
+	left:0;
+}
+.tx-felogin-pi1  H3 {
+	color: #ff9420;
+	text-align:left;
+	font-weight:normal;
+	font-size:20px;
+	font-family: 'PolyRegular', sans-serif;
+	margin-bottom:4px;
+}
+.tx-felogin-pi1 LABEL, .tx-felogin-pi1 DIV {
+	color:#fff;
+}
+.tx-felogin-pi1 LABEL.forgotLabel {
+	padding-bottom:16px;
+}
+.tx-felogin-pi1 LABEL.forgotMessage {
+    padding-bottom:26px;
+}
+.tx-felogin-pi1  INPUT {
+	width:196px;
+	padding:2px;
+	color:#000;
+	margin-bottom:7px;
+	float:left;
+	height:12px;
+}
+.tx-felogin-pi1 .noMarginBottom INPUT {
+	margin-bottom:3px;
+}
+.tx-felogin-pi1 .fixedWidth170px {
+	width:175px;
+}
+.tx-felogin-pi1 .fixedWidth170px INPUT{
+	width:170px;
+}
+.tx-felogin-pi1  INPUT.loginSubmit{
+	color:#fff;
+	float:left;
+	width:60px;
+	border: none;
+    background: #006bdf;
+  	color: #fff;
+  	cursor:pointer;
+  	height:22px;
+  	margin-left:10px;
+  	font-family:'PolyRegular', sans-serif;
+  	font-size:14px;
+}
+.tx-felogin-pi1  INPUT.logoutSubmit {
+	color:#fff;
+	float:right;
+	width:60px;
+	border: none;
+    background: #006bdf;
+  	color: #fff;
+  	cursor:pointer;
+  	height:22px;
+  	margin:10px 22px 0 0;
+  	font-family:'PolyRegular', sans-serif;
+  	font-size:14px;
+}
+.tx-felogin-pi1  INPUT.loginSubmitLong {
+	width:70px;
+}
+.tx-felogin-pi1 .passwordChangeWrapper {
+	position:relative;
+	display:block;
+}
+.tx-felogin-pi1 .fixedWidth70px {
+	position:absolute;
+	top:13px;
+	right:29px;
+}
+.tx-felogin-pi1 P {
+	position:absolute;
+	bottom:7px;
+}
+.tx-felogin-pi1 P A, .tx-felogin-pi1 A {
+	color:#fff;
+	text-decoration:underline;
+}

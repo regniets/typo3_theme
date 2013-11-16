@@ -1,0 +1,62 @@
+	/*
+	 * main1Col, main2Col, right2Col, main, left, right possible classes in the mainarea
+	 */
+	 
+html {
+	height: 101%;
+	margin-bottom: 1px;
+	position: relative;
+}
+
+body {
+	color: $textColor;
+	font-size: $baseFontSize;
+	font-family: $sansFontFamily;
+	height: 100%;
+	margin: 0;
+	position: relative;
+	padding: 0;
+	text-align: center;
+}
+
+.container,
+.container-fluid {
+	border: solid blue 1px;
+	display: block;
+	margin: auto; /*center for FF */
+	min-height: 100%;
+	padding: 0;
+	position: relative;
+	text-align: left;
+}
+
+.logo,
+.serviceMenue,
+.footerMenue,
+.copyright {
+	display: block;
+	float: left;
+}
+
+.header {
+	margin: 10px 0;
+}
+
+.breadcrumb {
+}
+
+.content {
+	padding: 0 0 40px 0;
+}
+
+.footer {    
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+} 
+
+.navi {
+	padding:0;
+}
